@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+#ismo {
+    display: none;
+}
+#oho {
+    height: 100%; 
+}
+.image-wrapper {
+    position:relative;
+    width: 100%;
+    width: 100%;
+    background-size:cover;
+}
+#oho {
+    width: 100%;
+    width: 100%;
+    background-size:cover;
+}
+.image-wrapper p {
+    position: absolute;
+    left: calc(50% - 20%);
+    top: 50%;
+    padding: 10px;
+    border: 5px solid rgb(48, 28, 2);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+    width: 40%;
+    height: 40%;
+    color: rgb(96, 62, 219);
+    margin: 5px;
+    font-size: 200%;
+    background-image: url("mp3/mur.jpg");
+    background-size: 100%;
+    background-position: right top;
+    text-align: center;
+}
+
+#vidi {
+    position:relative;
+    width: 100%;
+    width: 100%;
+    background-size:cover;
+}
+#video1 {
+    width: 100%;
+    width: 100%;
+    background-size:cover;
+}
+#vidi button {
+    position: absolute;
+    background: linear-gradient(red, yellow);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    bottom: 25%;
+    width: 400px;
+    left: calc(50% - 200px);
+}
+#vidi button:hover {
+    background-image: url("mp3/lataus.jpg");
+    width: 250px;
+    left: calc(50% - 125px);
+    height: 200px;
+    bottom: calc(25% - 5%);
+}
+#vidi p {
+    position: absolute;
+    left: calc(50% - 20%);
+    top: 50%;
+    padding: 10px;
+    border: 5px solid rgb(48, 28, 2);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+    width: 40%;
+    height: 40%;
+    color: rgb(96, 62, 219);
+    margin: 5px;
+    font-size: 200%;
+    background-image: url("mp3/boo.jpg");
+    background-size: 100%;
+    background-position: right top;
+    text-align: center;
+}
