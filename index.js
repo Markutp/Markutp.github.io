@@ -1,6 +1,7 @@
 let musa = document.getElementById('musa');
 let niilo = document.getElementById('video1')
 let ismo = document.getElementById('ismo');
+let jankko = document.getElementById('musa2');
 document.getElementById('teksti2').style.display='none';
 document.getElementById('oho').style.display = 'none';
 document.getElementById('wrap').style.display = 'none';
@@ -25,9 +26,11 @@ musaplay();
 };
 const piilota = () => {
     document.getElementById('ismo').style.display='none';
+    document.getElementById('vidi2').style.display = 'none';
     document.getElementById('wrap').style.display = 'block';
     document.getElementById('oho').style.display = 'block';
-    document.getElementById('teksti2').style.display = 'block'
+    document.getElementById('teksti2').style.display = 'block';
+    jankko.play();
 }
 const naytakuva = () => {
     
@@ -43,6 +46,8 @@ document.getElementById('namiska').addEventListener('click', (evt) => {
     document.getElementById('video1').style.display = 'none';
     document.getElementById('header').style.display = 'none';
     document.getElementById('namiska').style.display = 'none';
+    document.getElementById('vidi').style.display = 'none';
+    document.getElementById('vidi2').style.display = 'block';
     document.getElementById('ismo').style.display = 'block';
 
     ismo.play();
