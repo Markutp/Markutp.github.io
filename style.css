@@ -1,0 +1,219 @@
+html {
+    background: url(keittio.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+ 
+}
+body{
+    position: relative;
+}
+
+.box {
+width: 17%;
+height: 25%;
+border-color: hotpink;
+background-color:whitesmoke;
+position: relative;
+float: left;
+padding: 1%;
+border-style: solid;
+border-width: 2px;
+text-align: center;
+font-size: 3vw;
+border-radius: 30%;
+padding: 5%;
+padding-left: 3%;
+opacity: 0.7;
+
+
+}
+#viikko {
+    top: 9%;
+    position: absolute;
+    width: 100%;
+    height: 5%;
+}
+.box {
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+    font-family: 'Sofia' ;
+    font-size: 6.5vw;
+    color: red;
+    text-shadow: 0 0 3px red, 0 0 5px hotpink;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    float: left;
+    padding: 1%;
+    padding-bottom: 9%;
+ 
+ 
+    text-align: center;
+ 
+}
+ 
+h2 {
+    margin-left: 25%;
+}
+ 
+#content {
+    width: 100%;
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Paprika' ;font-size: 3.5vw;
+    color: whitesmoke;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(255, 0, 0);
+ 
+ 
+}
+#Ruokalista {  
+ text-align: left;
+ padding-right: 10%;
+}
+tr {
+    padding-right: 5%;
+}
+th:first-child{
+    padding-right: 5%;
+}
+th {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+td {
+    padding-left: 5%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+ 
+ 
+#ruoka {
+    width: 40%;
+}
+#valio{
+    width: 15%;
+ 
+}
+ 
+ 
+#hinta{
+    margin-right: 50%;
+    width: 45%;
+}
+#pvm {
+   
+    font-family: 'Paprika' ;font-size: 2vw;
+    color: whitesmoke;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(255, 0, 0);
+    float: left;
+    margin-left: 3%
+}
+#lounasaika{
+    font-family: 'Paprika' ;font-size: 2vw;
+}
+#paikka {
+    bottom: 90%;
+    position: absolute;
+    width: 40%;
+    margin-left: 29%;
+    margin-right: 40%;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Paprika' ;font-size: 4.4vw;
+    text-shadow: 0 0 3px red, 0 0 5px rgb(255, 255, 255);
+}
+#vkl {
+    position: absolute;
+    margin-top: 10%;
+}
+
+#pvm {
+   
+    font-family: 'Paprika' ;font-size: 5vw;
+    color: whitesmoke;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(255, 0, 0);
+    float: left;
+    margin-left: 3%
+}
+.topbar {
+    overflow: hidden;
+ 
+  }
+ 
+  .topbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+.topbar a:hover {
+    background-color: #ddd;
+ 
+  }
+ 
+ 
+.label.custom-select {
+    position: absolute;
+    display: inline-block;
+    width: 60%;
+}
+.custom-select select {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 29%;
+    width: 30%;
+    display: inline-block;
+    left: 40%;
+    font: inherit;
+    outline:none; /* remove focus ring from Webkit */
+    line-height: 1.2;
+    background: whitesmoke;
+    color:hotpink;
+    border: 1px;
+    box-shadow: 0 0 3px red, 0 0 5px hotpink;
+    text-align: center;
+}
+
+.no-pointer-events .custom-select:after {
+    content: none;
+}
+
+#buttons {
+    position: absolute;
+    width: 70%;
+    top: 84%;
+    left: 2%;
+    
+}
+#lounasaika {
+    position: absolute;
+    left: 22%;
+    font-family: 'Paprika' ;font-size: 3.5vw;
+    color: red;
+    top: -6%;
+}
+#diet {
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    font-family: 'Paprika' ;font-size: 3.5vw;
+    color: whitesmoke;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(255, 0, 0);
+    left: 1%;
+}
